@@ -8,7 +8,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 public class JunitCsvSearchTest {
-	String file="C:/Users/user/Desktop/Sample.csv";
+	String file="C:/Users/"+System.getProperty("user.name")+"/Desktop/Sample.csv";
 	
 	String notFoundFile="C:\\Users\\venkatachalams\\Desktop\\NoFile.csv";
 	String notCsvFile="C:\\Users\\venkatachalams\\Desktop\\NoFile.txt";
