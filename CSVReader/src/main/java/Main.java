@@ -16,6 +16,7 @@ public class Main extends CSVFileReader {
 		    option=optionScanner.nextInt();		    
 		    switch(option)
 		    {
+		    //For fetching the entire data in .csv file through absolute file path (Eg:C:\Users\.....\File.csv)		    
 		    case 1 :  Scanner scanner = new Scanner(System.in);
 			          System.out.println("Enter Absolute File Path\n");
 			          String filePath= scanner.nextLine();
@@ -26,7 +27,7 @@ public class Main extends CSVFileReader {
 		              System.out.println(result.get(i).replace(',',' '));
 		              scanner.close();
 		              break;
-		              
+		    //For fetching a specific row from .csv file by giving row number through absolute file path (Eg:C:\Users\.....\File.csv)
 		    case 2 :  Scanner rowScanner = new Scanner(System.in);
 		    		  System.out.println("Enter Absolute File Path\n");
 		    		  String rowFilePath= rowScanner.nextLine();		    		
@@ -38,7 +39,7 @@ public class Main extends CSVFileReader {
 		    		  rowScanner.close();
 		    		  lineNumber.close();
 		    		  break;
-		    		  
+		    //For searching a value in .csv file by giving a value to search through absolute file path (Eg:C:\Users\.....\File.csv)		  
 		    case 3 :  Scanner elementScanner = new Scanner(System.in);
 		    		  System.out.println("Enter Absolute File Path\n");
 		    		  String elementFilePath= elementScanner.nextLine();
