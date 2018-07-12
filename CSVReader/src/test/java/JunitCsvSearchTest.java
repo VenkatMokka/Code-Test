@@ -38,8 +38,8 @@ public class JunitCsvSearchTest {
 	@Test
 	public void searchElementTest()
 	{
-		expected.add("Element Found at line:1\n"
-				+ "Venkat,8041388");
+		expected.add("Element Found at line:2\n"
+				+ "8041388,Venkat");
 		CSVFileReader csvSearch=new CSVFileReader();
 		output.addAll(csvSearch.csvSearchElement(file,value));
 	    assertEquals(expected.get(0),output.get(0));
