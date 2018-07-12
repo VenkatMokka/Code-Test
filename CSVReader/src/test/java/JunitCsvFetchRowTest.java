@@ -13,7 +13,7 @@ public class JunitCsvFetchRowTest {
 		String value="Venkat";
 		int validRowNumber=5;
 		int invalidRowNumber=8;
-		String expectedRow="Kiran,8041388";
+		String expectedRow="8413301,Nidhi";
 		String expectedInvalid="Enter a valid .csv file";
 		
 		@Rule
