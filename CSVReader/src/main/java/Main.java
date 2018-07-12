@@ -3,8 +3,6 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
-
-
 public class Main extends CSVFileReader {
 	public static void main(String args[]) throws IOException 
 	  {
@@ -61,9 +59,8 @@ public class Main extends CSVFileReader {
 		    {
 		    	System.out.println("Invalid Input");
 		    	throw new RuntimeException();
-		    }
-		       
+		    }	       
 		   
-		    } 
+		   } 
 	  
 }
