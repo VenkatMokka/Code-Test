@@ -41,15 +41,6 @@ public class JunitCsvReadTest {
 		assertEquals(expected.get(0),output.get(0));		
 	}
 	
-	public void csvResult() throws IOException 
-	{
-		  BufferedReader reader = new BufferedReader(new FileReader(file));		 
-	      String line = null;
-	  while ((line = reader.readLine()) != null) 
-	    {
-	      expected.add(line);
-	    }
-         System.out.println(expected);  
-	}
+	
 	
 }
